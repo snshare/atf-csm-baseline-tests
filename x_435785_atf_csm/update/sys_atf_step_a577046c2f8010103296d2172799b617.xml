@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sn_shn_notes' matching query:
+Related record = {{Step 4: Submit a Form.Record}}
+and Table name = {{Step 4: Submit a Form.Table}}
+and Short Description = ATF: Test Special Handling Notes
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>9</order>
+        <snapshot/>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:17</sys_created_on>
+        <sys_id>a577046c2f8010103296d2172799b617</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_a577046c2f8010103296d2172799b617</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:27</sys_updated_on>
+        <table>sn_shn_notes</table>
+        <test display_value="Case - UI - Create Special Handling Notes">fd27086c2f8010103296d2172799b6a9</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a577046c2f8010103296d2172799b617"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a577046c2f8010103296d2172799b617</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>02b7cc6c2f8010103296d2172799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <value>related_record={{step['bd27086c2f8010103296d2172799b6c7'].record_id}}^table_name={{step['bd27086c2f8010103296d2172799b6c7'].table}}^short_description=ATF: Test Special Handling Notes^EQ</value>
+        <variable display_value="">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a577046c2f8010103296d2172799b617</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>4eb7cc6c2f8010103296d2172799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <value>sn_shn_notes</value>
+        <variable display_value="">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a577046c2f8010103296d2172799b617</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>8ab7cc6c2f8010103296d2172799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a577046c2f8010103296d2172799b617</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>c6b7cc6c2f8010103296d2172799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a577046c2f8010103296d2172799b617"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>a577046c2f8010103296d2172799b617</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>82b7cc6c2f8010103296d2172799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a577046c2f8010103296d2172799b617</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:00:18</sys_created_on>
+        <sys_id>46b7cc6c2f8010103296d2172799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:00:18</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>related_record={{step['bd27086c2f8010103296d2172799b6c7'].record_id}}^table_name={{step['bd27086c2f8010103296d2172799b6c7'].table}}^short_description=ATF: Test Special Handling Notes^EQ</value>
+    </sys_element_mapping>
+</record_update>
