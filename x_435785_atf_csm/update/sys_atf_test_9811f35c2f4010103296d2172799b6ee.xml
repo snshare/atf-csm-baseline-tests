@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CSM - Time Worked - API -  Time Recording">40ea5a5337750010bec7dc1873990e7c</copied_from>
+        <description>This will create a case and log time against it&#13;
+&#13;
+By default, ACLs deny time worked from agents, so this is done via an admin user. </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Time Worked - API -  Time Recording</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 19:21:20</sys_created_on>
+        <sys_id>9811f35c2f4010103296d2172799b6ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Time Worked - API -  Time Recording</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_test_9811f35c2f4010103296d2172799b6ee</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 19:26:05</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=9811f35c2f4010103296d2172799b6ee"/>
+</record_update>
