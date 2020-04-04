@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Click Component (Custom UI)">27b732d737f50010bec7dc1873990ece</copied_from>
+        <description>Click the component: 'Button &lt;button&gt;: Accept Solution'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"d862a20db15f02f91872cdacaceb32cf":"{\"area\":\"Case Ticket Action\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Accept Solution\",\"inner_text\":\"Accept Solution\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Accept Solution in page area Case Ticket Action\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Accept Solution\",\"type\":\"button\",\"get_value_result\":\"Accept Solution\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"name\":\"accept\",\"sn_atf_mugshot_value\":\"Accept Solution\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"d862a20db15f02f91872cdacaceb32cf\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>8</order>
+        <snapshot/>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:31:56</sys_created_on>
+        <sys_id>bdfe80a42fc010103296d2172799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_bdfe80a42fc010103296d2172799b62c</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:31:56</sys_updated_on>
+        <table/>
+        <test display_value="Portal - UI - Provide Feedback on Survey">19fec8642fc010103296d2172799b6e8</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bdfe80a42fc010103296d2172799b62c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bdfe80a42fc010103296d2172799b62c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:31:56</sys_created_on>
+        <sys_id>bdfe80a42fc010103296d2172799b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:31:56</sys_updated_on>
+        <value>d862a20db15f02f91872cdacaceb32cf</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from display_value="CSM - Portal - UI - Search On Homepage">1d34039737390010bec7dc1873990e84</copied_from>
+        <description>This test goes to the Customer Support portal as a customer and types "case" in the search bar.&#13;
+&#13;
+Note: With Orlando, the Search component no longer shows, by default, for people with sn_customerservice.customer. I am assuming this is a bug and will be fixed eventually. For now setting this test to inactive.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Portal - UI - Search On Homepage</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:36:35</sys_created_on>
+        <sys_id>6100d4a42fc010103296d2172799b687</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Portal - UI - Search On Homepage</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_test_6100d4a42fc010103296d2172799b687</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:43:20</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=6100d4a42fc010103296d2172799b687"/>
+</record_update>
