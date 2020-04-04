@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Assert Text on Page (Custom UI)">17cff25337390010bec7dc1873990e54</copied_from>
+        <description>Assert that the text 'State Open' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>10</order>
+        <snapshot/>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>ad6f48a42fc010103296d2172799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_ad6f48a42fc010103296d2172799b69f</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <table/>
+        <test display_value="Portal - UI - Provide requested info on case">156f04a42fc010103296d2172799b657</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ad6f48a42fc010103296d2172799b69f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ad6f48a42fc010103296d2172799b69f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>6d6f48a42fc010103296d2172799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <value>State Open</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ad6f48a42fc010103296d2172799b69f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>a96f48a42fc010103296d2172799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad6f48a42fc010103296d2172799b69f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>ad6f48a42fc010103296d2172799b69f</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>e16f48a42fc010103296d2172799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>State Open</value>
+    </sys_element_mapping>
+</record_update>

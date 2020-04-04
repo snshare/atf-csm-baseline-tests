@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="CSM - Portal - UI - Accept Proposed Solution On Case">c3fe0f9737790010bec7dc1873990e37</copied_from>
+        <description>This test creates a case, sets it to solution proposed, accepts the solution on the csm portal</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Portal - UI - Accept Proposed Solution On Case</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:23:17</sys_created_on>
+        <sys_id>f2fcc0e02fc010103296d2172799b6d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Portal - UI - Accept Proposed Solution On Case</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_test_f2fcc0e02fc010103296d2172799b6d6</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:24:02</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=f2fcc0e02fc010103296d2172799b6d6"/>
+</record_update>

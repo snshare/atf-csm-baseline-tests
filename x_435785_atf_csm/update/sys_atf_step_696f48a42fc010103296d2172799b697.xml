@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">a06f7e1337390010bec7dc1873990e24</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;textarea&gt; [post-input]' = Required Information provided from ATF Customer User from ATF script
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"96cba4ee9dcc5caec032f8a0b929e153":"{\"area\":\"Conversation\",\"sn_atf_mugshot_short_description\":\"Text &lt;textarea&gt; [post-input]\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;textarea&gt; [post-input]: (empty) in page area Conversation\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"post-input\",\"type\":\"textarea\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;textarea&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"textarea\",\"isDisabled\":false,\"id\":\"post-input\",\"aria-label\":\"Type your message here...\",\"hash\":\"96cba4ee9dcc5caec032f8a0b929e153\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>8</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>696f48a42fc010103296d2172799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_696f48a42fc010103296d2172799b697</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <table/>
+        <test display_value="Portal - UI - Provide requested info on case">156f04a42fc010103296d2172799b657</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=696f48a42fc010103296d2172799b697"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>696f48a42fc010103296d2172799b697</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:33:51</sys_created_on>
+        <sys_id>a16f48a42fc010103296d2172799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:33:51</sys_updated_on>
+        <value>96cba4ee9dcc5caec032f8a0b929e153=Required Information provided from ATF Customer User from ATF script^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

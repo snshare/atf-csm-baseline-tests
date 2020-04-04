@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">ae451e48db60001032ffe1bb4b96191a</copied_from>
+        <description>Impersonate the user: {{Step 1: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Change to any Customer for which update profile need to be performed</notes>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:43:37</sys_created_on>
+        <sys_id>f8a158282fc010103296d2172799b6fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_f8a158282fc010103296d2172799b6fe</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:43:37</sys_updated_on>
+        <table/>
+        <test display_value="Portal - UI - Update Support Profile">e4a154282fc010103296d2172799b6af</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f8a158282fc010103296d2172799b6fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f8a158282fc010103296d2172799b6fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:43:37</sys_created_on>
+        <sys_id>bca158282fc010103296d2172799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:43:37</sys_updated_on>
+        <value>ddce70866f9331003b3c498f5d3ee417</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8a158282fc010103296d2172799b6fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>f8a158282fc010103296d2172799b6fe</id>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:43:37</sys_created_on>
+        <sys_id>34a198282fc010103296d2172799b600</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:43:37</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['a0a154282fc010103296d2172799b6b3'].user}}</value>
+    </sys_element_mapping>
+</record_update>

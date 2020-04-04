@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open a New Form">854bcedf37f10010bec7dc1873990e0f</copied_from>
+        <description>Open a new 'Case' form</description>
+        <display_name>Open a New Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:13:36</sys_created_on>
+        <sys_id>34ca8c602fc010103296d2172799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a New Form</sys_name>
+        <sys_package display_value="ATF CSM Baseline Tests" source="x_435785_atf_csm">df8f631c2f4010103296d2172799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF CSM Baseline Tests">df8f631c2f4010103296d2172799b64e</sys_scope>
+        <sys_update_name>sys_atf_step_34ca8c602fc010103296d2172799b647</sys_update_name>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:13:36</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <test display_value="Case - UI - Escalate a Case">b0ca88202fc010103296d2172799b6e5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=34ca8c602fc010103296d2172799b647"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>34ca8c602fc010103296d2172799b647</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:13:36</sys_created_on>
+        <sys_id>70ca8c602fc010103296d2172799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:13:36</sys_updated_on>
+        <value>sn_customerservice_case</value>
+        <variable display_value="">bb84ed825320220002c6435723dc3400</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>34ca8c602fc010103296d2172799b647</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:13:36</sys_created_on>
+        <sys_id>bcca8c602fc010103296d2172799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:13:36</sys_updated_on>
+        <value/>
+        <variable display_value="">27d4e1c25320220002c6435723dc3486</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>34ca8c602fc010103296d2172799b647</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>djkersch</sys_created_by>
+        <sys_created_on>2020-04-04 21:13:36</sys_created_on>
+        <sys_id>f8ca8c602fc010103296d2172799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>djkersch</sys_updated_by>
+        <sys_updated_on>2020-04-04 21:13:36</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="">6f2a59a4e7133300b5646ea8c2f6a975</variable>
+    </sys_variable_value>
+</record_update>
