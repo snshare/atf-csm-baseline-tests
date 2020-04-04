@@ -7,6 +7,8 @@ Orlando-based scoped application for Servicenow Automated Test Framework (ATF) C
 ## Servicenow plugin dependencies
 :white_check_mark: [Customer Service (com.sn_customerservice)](https://docs.servicenow.com/bundle/orlando-customer-service-management/page/product/customer-service-management/concept/c_CustomerServiceManagement.html)
 
+:white_check_mark: [ATF Custom Steps (x_435785_atf_steps)](https://github.com/snshare/atf-custom-steps.git) Note: The reason for this dependency is because Run Server Side Script doesn't support outputing a string value (ie sys ids)
+
 ### Goal of this application
 This is a [scoped app](https://docs.servicenow.com/bundle/orlando-application-development/page/build/applications/concept/c_ApplicationScope.html) in ServiceNow to give administrators and developers a faster Automated Testing implementation for a given feature set.
 
